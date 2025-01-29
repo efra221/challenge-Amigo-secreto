@@ -24,4 +24,4 @@ Este es un pequeño proyecto en JavaScript para gestionar un sorteo de amigo sec
 No es necesario instalar dependencias. Solo descarga los archivos y ábrelos en un navegador web.
 
 ## Autor
-Efraín Díaz
+Efrain Diaz
