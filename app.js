@@ -63,3 +63,10 @@ function sortearAmigo() {
     // mostrar el amigo secreto
     document.getElementById('resultado').innerHTML = `El amigo secreto sorteado es: ${amigoSorteado}`;
 }
+
+    // evento para al preionar enter enviar los datos
+document.getElementById('amigo').addEventListener('keypress', function(event) {
+    if (event.key === 'Enter') {  
+        event.preventDefault(); 
+        agregarAmigo();
+    }
